@@ -1,19 +1,6 @@
-## Circuits simulations in LTSpiceIV
+## Circuits simulations in LTSpiceIV improved
 
-This is my personal collection of circuits simulations in LTSpiceIV. At some point in time I simulated each one of these circuits and analyzed them. Sometimes I'd simulate a circuit we studied in class, other times I tested a theory and/or my understandings of a particular circuit, some other times I'd just simulate a design I found on the internet and other times I'd simulate a circuit I tried to build.
-
-Below you can find a non exhaustive list of the circuits which are included in this repository. All of what is included was written on LTSpiceIV by myself. On some DC-AC converters, a gain module which I did not build myself is used. Since I'm not sure on whether I can upload it here, it is not included.
-
-Some examples:
-
-### Common Emitter BJT configuration
-![Common Emitter BJT configuration](https://user-images.githubusercontent.com/13961654/53668789-30dada00-3c75-11e9-9655-df0a41e2482b.png)
-### Sawtooth oscillator
-![image 002](https://user-images.githubusercontent.com/13961654/53668794-320c0700-3c75-11e9-8d3c-cfd66af27392.png)
-### Three phase full bridge inverter PWM modulation with wye and delta connected loads
-![image 003](https://user-images.githubusercontent.com/13961654/53668796-33d5ca80-3c75-11e9-9dc6-d9cf26519e03.png)
-
----
+Continue building more circuit based on [mick001 (Michy)](https://github.com/mick001) repo
 
 ### AC-DC and DC-AC converters
 
