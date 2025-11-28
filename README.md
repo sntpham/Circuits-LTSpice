@@ -6,6 +6,49 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 
 For all the curious kids out there who open their toys to see what inside. Who asking questions at the right time.
 
+## Table of Contents
+
+1. [Amplifiers](#amplifiers)
+2. [Basic Electronic Components](#basic-electronic-components)
+3. [Basics](#basics)
+4. [AC-DC and DC-AC Converters](#ac-dc-and-dc-ac-converters)
+5. [AM Modulator Circuits](#am-modulator-circuits)
+6. [ASK Modulator Transceiver](#ask-modulator-transceiver)
+7. [Comparator Circuits](#comparator-circuits)
+8. [Controller Control Systems](#controller-control-systems)
+9. [Current Mirrors](#current-mirrors)
+10. [DCDC Converters](#dcdc-converters)
+11. [Filters](#filters)
+
+    - [RC Filters](#rc-filters)
+    - [RL Filters](#rl-filters)
+    - [RLC Filters](#rlc-filters)
+12. [Input Stages](#input-stages)
+13. [Loads](#loads)
+14. [Logic Circuits](#logic-circuits)
+15. [Lossless Transmission Line](#lossless-transmission-line)
+16. [Mixer Circuits](#mixer-circuits)
+17. [Monte Carlo Simulations](#monte-carlo-simulations)
+18. [Oscillators](#oscillators)
+19. [Power Lines](#power-lines)
+20. [Protection Circuits](#protection-circuits)
+
+    - [Current Limiting](#current-limiting)
+    - [Overvoltage Protection](#overvoltage-protection)
+21. [PWM](#pwm)
+22. [RF Generators](#rf-generators)
+23. [Signal Processing](#signal-processing)
+24. [Soft Starters](#soft-starters)
+25. [Sources and Regulators](#sources-and-regulators)
+26. [Temperature Variation Simulation](#temperature-variation-simulation)
+27. [Transformer](#transformer)
+28. [Trigger Circuits](#trigger-circuits)
+29. [Voltage Elevator Circuits](#voltage-elevator-circuits)
+30. [Worst Case Scenario Simulation](#worst-case-scenario-simulation)
+31. [Zero Crossing Detectors](#zero-crossing-detectors)
+
+---
+
 ### Amplifiers
 
 | Name                                            | Img                                            |
