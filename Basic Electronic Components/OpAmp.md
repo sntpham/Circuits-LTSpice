@@ -1,0 +1,3 @@
+# OpAmp
+
+## Parameters in LTSpice

@@ -21,7 +21,10 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 
 ### Basic Electronic Components
 
-- Diode.md
+| Name     | Img |
+| -------- | --- |
+| Diode.md |     |
+| OpAmp.md |     |
 
 ### Basics
 
@@ -36,7 +39,10 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 
 ### Common Issues
 
-- Undefined Model.md
+| Name               | Img/Des |
+| ------------------ | ------- |
+| Undefined Model.md |         |
+|                    |         |
 
 ### Comparator circuits
 
@@ -105,11 +111,19 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 
 ### Input stages
 
-- professional-input-stage.asc
+| Name                         | Img/Des |
+| ---------------------------- | ------- |
+| professional-input-stage.asc |         |
+|                              |         |
 
 ### Loads
 
-- constant-P-R-I-loads.asc
+
+| Name                     | Img/Des |
+| ------------------------ | ------- |
+| constant-P-R-I-loads.asc |         |
+|                          |         |
+
 
 ### Logic-circuits
 
@@ -176,7 +190,10 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 
 ### Protection Circuit
 
-- PTC_Fuse_Calculation.ipynb
+| Name                       | Img/Des |
+| -------------------------- | ------- |
+| PTC_Fuse_Calculation.ipynb |         |
+|                            |         |
 
 #### Current limiting circuits
 
