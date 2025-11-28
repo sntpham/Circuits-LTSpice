@@ -1,0 +1,11 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -48 -24 64 24
+TEXT -83 42 Left 2 nonInvertingOp_vfvi
+WINDOW 0 8 -24 Bottom 2
+PIN -48 0 LEFT 8
+PINATTR PinName In
+PINATTR SpiceOrder 1
+PIN 64 0 RIGHT 8
+PINATTR PinName Out
+PINATTR SpiceOrder 2

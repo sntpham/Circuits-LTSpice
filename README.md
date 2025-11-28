@@ -2,6 +2,10 @@
 
 Continue building more circuit based on [mick001 (Michy)](https://github.com/mick001) repo ([Circuits-LTSpice](https://github.com/mick001/Circuits-LTSpice))
 
+### Motivation
+
+For all the curious kids out there who open their toys to see what inside. Who asking questions at the right time.
+
 ### Amplifiers
 
 | Name                                            | Img                                            |
@@ -173,11 +177,14 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 | Single-phase-rectifier-constant-current-load.asc      |                                                |
 | Single-phase-rectifier-constant-voltage-load.asc      |                                                |
 | Single-phase-rectifier-R-load-smoothing-capacitor.asc |                                                |
-| soft-starter-12V.asc                                  |                                                |
-| Three-phase-full-bridge-inverter.asc                  |                                                |
-| Three-phase-naive-inverter.asc                        |                                                |
-| Three-phase-naive-supply-system.asc                   |                                                |
-| Three-phase-rectifier.asc                             |                                                |
+| soft-starter-12V.asc                                  | ![1764349019772](image/README/1764349019772.png) |
+| Three-phase-full-bridge-inverter.asc                  | ![1764354429254](image/README/1764354429254.png) |
+| Three-phase-naive-inverter.asc                        | ![1764348889523](image/README/1764348889523.png) |
+| Three-phase-naive-supply-system.asc                   | ![1764346979800](image/README/1764346979800.png) |
+| Three-phase-rectifier.asc                             | ![1764345869685](image/README/1764345869685.png) |
+| Example-gain-symbols.asc                              | ![1764355634970](image/README/1764355634970.png) |
+|                                                       |                                                |
+|                                                       |                                                |
 
 ### Power-Sources
 
