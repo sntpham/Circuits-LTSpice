@@ -32,48 +32,48 @@ For all the curious kids out there who open their toys to see what inside. Who a
 
 ### Basics
 
-| Name                                  | Img                                            |
-| ------------------------------------- | ---------------------------------------------- |
-| DC-transfer-function-analysis.asc     | ![1764300878358](image/README/1764300878358.png) |
-| Example-of-DC-sweep.asc               |                                                |
-| How-to-set-initial-conditions.asc     |                                                |
-| Parallel-resistor-when-negligible.asc |                                                |
-| PNP-transistor-biasing.asc            |                                                |
-| Transistor-beta.asc                   |                                                |
+| Name                                  | Img                                                                                                                                             |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| DC-transfer-function-analysis.asc     | ![1764300878358](image/README/1764300878358.png)                                                                                                  |
+| Example-of-DC-sweep.asc               | ![1764363611972](image/README/1764363611972.png)                                                                                                  |
+|                                       | In this example, voltage is swept from -10 to 10V, as voltage source greater than 0V,<br />the voltage drop is about 0.7V from the diode side  |
+| How-to-set-initial-conditions.asc     | ![1764363776868](image/README/1764363776868.png)                                                                                                  |
+| Parallel-resistor-when-negligible.asc | ![1764363998463](image/README/1764363998463.png)                                                                                                  |
+| PNP-transistor-biasing.asc            | ![1764364712101](image/README/1764364712101.png)                                                                                                  |
+| Transistor-beta.asc                   | ![1764364888680](image/README/1764364888680.png)                                                                                                  |
 
 ### Common Issues
 
 | Name               | Img/Des |
 | ------------------ | ------- |
 | Undefined Model.md |         |
-|                    |         |
 
 ### Comparator circuits
 
-| Name                                                      | Img |
-| --------------------------------------------------------- | --- |
-| Comparator-with-hysteresis-asymmetrical-window.asc        |     |
-| Comparator-with-hysteresis-symmetrical-window.asc         |     |
-| Comparator-with-hysteresis-window-shifted-from-origin.asc |     |
-| comparatore-con-isteresi-finestra-shifted-calculations.py |     |
-| Window-comparator.asc                                     |     |
-| zero-crossing-detector-2.asc                              |     |
-| zero-crossing-detector.asc                                |     |
+| Name                                                      | Img                                            |
+| --------------------------------------------------------- | ---------------------------------------------- |
+| Comparator-with-hysteresis-asymmetrical-window.asc        | ![1764365421687](image/README/1764365421687.png) |
+| Comparator-with-hysteresis-symmetrical-window.asc         | ![1764365481305](image/README/1764365481305.png) |
+| Comparator-with-hysteresis-window-shifted-from-origin.asc | ![1764365526306](image/README/1764365526306.png) |
+| comparatore-con-isteresi-finestra-shifted-calculations.py |                                                |
+| Window-comparator.asc                                     | ![1764365619767](image/README/1764365619767.png) |
+| zero-crossing-detector-2.asc                              | ![1764365900676](image/README/1764365900676.png) |
+| zero-crossing-detector.asc                                | ![1764365857128](image/README/1764365857128.png) |
 
 #### other circuits with hysteresis
 
-| Name                       | Img |
-| -------------------------- | --- |
-| schmitt_trigger_bjts.asc   |     |
-| schmitt_trigger_bjts_2.asc |     |
+| Name                       | Img                                            |
+| -------------------------- | ---------------------------------------------- |
+| schmitt_trigger_bjts.asc   | ![1764366235239](image/README/1764366235239.png) |
+| schmitt_trigger_bjts_2.asc | ![1764366372143](image/README/1764366372143.png) |
 
 ### Controller-control-systems
 
-| Name                                   | Img |
-| -------------------------------------- | --- |
-| Bang-bang-control.asc                  |     |
-| Buck-converter-closed-loop-control.asc |     |
-| PD-controller.asc                      |     |
+| Name                                   | Img                                            |
+| -------------------------------------- | ---------------------------------------------- |
+| Bang-bang-control.asc                  | ![1764366468147](image/README/1764366468147.png) |
+| Buck-converter-closed-loop-control.asc | ![1764366541144](image/README/1764366541144.png) |
+| PD-controller.asc                      | ![1764366581506](image/README/1764366581506.png) |
 
 ### Filters
 
@@ -122,19 +122,17 @@ For all the curious kids out there who open their toys to see what inside. Who a
 
 ### Loads
 
-
 | Name                     | Img/Des |
 | ------------------------ | ------- |
 | constant-P-R-I-loads.asc |         |
 |                          |         |
 
-
 ### Logic-circuits
 
-| Name                               | Img |
-| ---------------------------------- | --- |
-| Logic-gates-diodes-transistors.asc |     |
-| Logic-gates-transistors-BJTs.asc   |     |
+| Name                               | Img                                            |
+| ---------------------------------- | ---------------------------------------------- |
+| Logic-gates-diodes-transistors.asc | ![1764366907357](image/README/1764366907357.png) |
+| Logic-gates-transistors-BJTs.asc   | ![1764366806898](image/README/1764366806898.png) |
 
 ### Oscillators-and-Timers
 
@@ -168,23 +166,21 @@ For all the curious kids out there who open their toys to see what inside. Who a
 | ----------------------------------------------------- | ---------------------------------------------- |
 | Boost-converter-1.asc                                 | ![1764301078381](image/README/1764301078381.png) |
 | Boost-converter-2.asc                                 | ![1764301112994](image/README/1764301112994.png) |
-| Buck-converter.asc                                    |                                                |
-| Cockcroft-walton-multiplier.asc                       |                                                |
-| DCDC-full-bridge.asc                                  |                                                |
-| Full-bridge-inverter.asc                              |                                                |
+| Buck-converter.asc                                    | ![1764360664443](image/README/1764360664443.png) |
+| Cockcroft-walton-multiplier.asc                       | ![1764360864317](image/README/1764360864317.png) |
+| DCDC-full-bridge.asc                                  | ![1764359423434](image/README/1764359423434.png) |
+| Full-bridge-inverter.asc                              | ![1764360510198](image/README/1764360510198.png) |
 | Full-bridge-rectifier.asc                             | ![1764301381640](image/README/1764301381640.png) |
-| Half-bridge-inverter.asc                              |                                                |
-| Single-phase-rectifier-constant-current-load.asc      |                                                |
-| Single-phase-rectifier-constant-voltage-load.asc      |                                                |
-| Single-phase-rectifier-R-load-smoothing-capacitor.asc |                                                |
+| Half-bridge-inverter.asc                              | ![1764362019759](image/README/1764362019759.png) |
+| Single-phase-rectifier-constant-current-load.asc      | ![1764357326623](image/README/1764357326623.png) |
+| Single-phase-rectifier-constant-voltage-load.asc      | ![1764357475053](image/README/1764357475053.png) |
+| Single-phase-rectifier-R-load-smoothing-capacitor.asc | ![1764359089291](image/README/1764359089291.png) |
 | soft-starter-12V.asc                                  | ![1764349019772](image/README/1764349019772.png) |
 | Three-phase-full-bridge-inverter.asc                  | ![1764354429254](image/README/1764354429254.png) |
 | Three-phase-naive-inverter.asc                        | ![1764348889523](image/README/1764348889523.png) |
 | Three-phase-naive-supply-system.asc                   | ![1764346979800](image/README/1764346979800.png) |
 | Three-phase-rectifier.asc                             | ![1764345869685](image/README/1764345869685.png) |
 | Example-gain-symbols.asc                              | ![1764355634970](image/README/1764355634970.png) |
-|                                                       |                                                |
-|                                                       |                                                |
 
 ### Power-Sources
 
@@ -254,12 +250,12 @@ For all the curious kids out there who open their toys to see what inside. Who a
 
 ### Transformer
 
-| Name                                      | Img |
-| ----------------------------------------- | --- |
-| Example-of-mutually-coupled-inductors.asc |     |
-| Transformer-step-down-2-1.asc             |     |
-| Transformer-step-down-5-1.asc             |     |
-| Transformer-step-down-up.asc              |     |
+| Name                                      | Img                                            |
+| ----------------------------------------- | ---------------------------------------------- |
+| Example-of-mutually-coupled-inductors.asc | ![1764367423848](image/README/1764367423848.png) |
+| Transformer-step-down-2-1.asc             |                                                |
+| Transformer-step-down-5-1.asc             |                                                |
+| Transformer-step-down-up.asc              |                                                |
 
 #### Transmission-and-Power-Lines
 
