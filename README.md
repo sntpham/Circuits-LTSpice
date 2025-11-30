@@ -1,10 +1,10 @@
 Continue building more circuit based on [mick001 (Michy)](https://github.com/mick001) repo ([Circuits-LTSpice](https://github.com/mick001/Circuits-LTSpice))
 
-For all the curious kids out there who open their toys to see what inside. Who asking questions at the right time.
+> [!NOTE]
+> For all the curious kids out there who open their toys to see what inside. Who asking questions at the right time.
 
 - [Amplifiers](#amplifiers)
 - [Basics](#basics)
-- [Common Issues](#common-issues)
 - [Comparator circuits](#comparator-circuits)
   - [other circuits with hysteresis](#other-circuits-with-hysteresis)
 - [Controller-control-systems](#controller-control-systems)
@@ -57,12 +57,6 @@ For all the curious kids out there who open their toys to see what inside. Who a
 | PNP-transistor-biasing.asc            | ![1764364712101](image/README/1764364712101.png)                                                                                                  |
 | Transistor-beta.asc                   | ![1764364888680](image/README/1764364888680.png)                                                                                                  |
 
-### Common Issues
-
-| Name               | Img/Des |
-| ------------------ | ------- |
-| Undefined Model.md |         |
-
 ### Comparator circuits
 
 | Name                                                      | Img                                            |
@@ -94,17 +88,17 @@ For all the curious kids out there who open their toys to see what inside. Who a
 
 #### RC
 
-| Name                                    | Img |
-| --------------------------------------- | --- |
-| RC-bandpass-filter-frequency-domain.asc |     |
-| RC-highpass-frequency-domain.asc        |     |
-| RC-lowpass-frequency-domain.asc         |     |
-| RC-lowpass-cascaded.asc                 |     |
-| RC-lowpass-step-response.asc            |     |
-| RC-lowpass.asc                          |     |
-| RC-sawtooth-response.asc                |     |
-| RC-square-wave-response.asc             |     |
-| RC.py                                   |     |
+| Name                                    | Img                                            |
+| --------------------------------------- | ---------------------------------------------- |
+| RC-bandpass-filter-frequency-domain.asc |                                                |
+| RC-highpass-frequency-domain.asc        |                                                |
+| RC-lowpass-frequency-domain.asc         |                                                |
+| RC-lowpass-cascaded.asc                 |                                                |
+| RC-lowpass-step-response.asc            |                                                |
+| RC-lowpass.asc                          | ![1764465389586](image/README/1764465389586.png) |
+| RC-sawtooth-response.asc                |                                                |
+| RC-square-wave-response.asc             |                                                |
+| RC.py                                   |                                                |
 
 #### RL
 
@@ -131,14 +125,12 @@ For all the curious kids out there who open their toys to see what inside. Who a
 | Name                         | Img/Des |
 | ---------------------------- | ------- |
 | professional-input-stage.asc |         |
-|                              |         |
 
 ### Loads
 
 | Name                     | Img/Des |
 | ------------------------ | ------- |
 | constant-P-R-I-loads.asc |         |
-|                          |         |
 
 ### Logic-circuits
 
@@ -175,64 +167,57 @@ For all the curious kids out there who open their toys to see what inside. Who a
 
 ### Power-Electronics
 
-| Name                                                                          | Img                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Boost-converter](Misc/Basic%20Electronic%20Components/Boost-converter.md)-1.asc | ![1764301078381](image/README/1764301078381.png)                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                               | Boost converter using the high voltage change during switch OFF<br />from the inductor to continue charge the capacitor.<br />The gain is define by duty cycle (D). D = 1 - Vin/Vout<br /><br />![1764427718609](image/README/1764427718609.png)<br />10u<br />Setup with Arduino is available here: <br />https://www.tinkercad.com/things/2v9zF7lDCHd-boost-converter?sharecode=GUI-prjcMQ9xBO0XAoe3_zGsIDaZpps5Eg2EJEY_V8A |
-|                                                                               | ![1764437149941](image/README/1764437149941.png)                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                               | Let see how it turned out                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Boost-converter-2.asc                                                         | ![1764301112994](image/README/1764301112994.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Buck-converter.asc                                                            | ![1764360664443](image/README/1764360664443.png)                                                                                                                                                                                                                                                                                                                                                                               |
-|                                                                               | Buck converter reduce voltage with PWM.<br />According to The Art of Electronic, we can consider LC <br />as a low pass filter to smooth out the output voltage                                                                                                                                                                                                                                                             |
-| Cockcroft-walton-multiplier.asc                                               | ![1764360864317](image/README/1764360864317.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| DCDC-full-bridge.asc                                                          | ![1764359423434](image/README/1764359423434.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Full-bridge-inverter.asc                                                      | ![1764360510198](image/README/1764360510198.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Full-bridge-rectifier.asc                                                     | ![1764301381640](image/README/1764301381640.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Half-bridge-inverter.asc                                                      | ![1764362019759](image/README/1764362019759.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Single-phase-rectifier-constant-current-load.asc                              | ![1764357326623](image/README/1764357326623.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Single-phase-rectifier-constant-voltage-load.asc                              | ![1764357475053](image/README/1764357475053.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Single-phase-rectifier-R-load-smoothing-capacitor.asc                         | ![1764359089291](image/README/1764359089291.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| soft-starter-12V.asc                                                          | ![1764349019772](image/README/1764349019772.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Three-phase-full-bridge-inverter.asc                                          | ![1764354429254](image/README/1764354429254.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Three-phase-naive-inverter.asc                                                | ![1764348889523](image/README/1764348889523.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Three-phase-naive-supply-system.asc                                           | ![1764346979800](image/README/1764346979800.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Three-phase-rectifier.asc                                                     | ![1764345869685](image/README/1764345869685.png)                                                                                                                                                                                                                                                                                                                                                                               |
-| Example-gain-symbols.asc                                                      | ![1764355634970](image/README/1764355634970.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Name                                                                      | Img                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Boost-converter](Misc/Basic-Electronic-Components/Boost-converter.md)-1.asc | ![1764301078381](image/README/1764301078381.png)                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                           | Boost converter using the high voltage change during switch OFF<br />from the inductor to continue charge the capacitor.<br />The gain is define by duty cycle (D). D = 1 - Vin/Vout<br /><br />![1764427718609](image/README/1764427718609.png)<br />10u<br />Setup with Arduino is available here: <br />https://www.tinkercad.com/things/2v9zF7lDCHd-boost-converter?sharecode=GUI-prjcMQ9xBO0XAoe3_zGsIDaZpps5Eg2EJEY_V8A |
+|                                                                           | ![1764437149941](image/README/1764437149941.png)                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                           | I believe in learning or doing small but steady. I just submited my design, hopefully we can assemble<br />everything before 2026. I think this is the best way to learn electronics in general: Sim > Build > Test > Enjoy!                                                                                                                                                                                                 |
+| Boost-converter-2.asc                                                     | ![1764301112994](image/README/1764301112994.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Buck-converter.asc                                                        | ![1764360664443](image/README/1764360664443.png)                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                           | Buck converter reduce voltage with PWM.<br />According to The Art of Electronic, we can consider LC <br />as a low pass filter to smooth out the output voltage                                                                                                                                                                                                                                                             |
+| Cockcroft-walton-multiplier.asc                                           | ![1764360864317](image/README/1764360864317.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| DCDC-full-bridge.asc                                                      | ![1764359423434](image/README/1764359423434.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Full-bridge-inverter.asc                                                  | ![1764360510198](image/README/1764360510198.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Full-bridge-rectifier.asc                                                 | ![1764301381640](image/README/1764301381640.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Half-bridge-inverter.asc                                                  | ![1764362019759](image/README/1764362019759.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Single-phase-rectifier-constant-current-load.asc                          | ![1764357326623](image/README/1764357326623.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Single-phase-rectifier-constant-voltage-load.asc                          | ![1764357475053](image/README/1764357475053.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Single-phase-rectifier-R-load-smoothing-capacitor.asc                     | ![1764359089291](image/README/1764359089291.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| soft-starter-12V.asc                                                      | ![1764349019772](image/README/1764349019772.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Three-phase-full-bridge-inverter.asc                                      | ![1764354429254](image/README/1764354429254.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Three-phase-naive-inverter.asc                                            | ![1764348889523](image/README/1764348889523.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Three-phase-naive-supply-system.asc                                       | ![1764346979800](image/README/1764346979800.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Three-phase-rectifier.asc                                                 | ![1764345869685](image/README/1764345869685.png)                                                                                                                                                                                                                                                                                                                                                                               |
+| Example-gain-symbols.asc                                                  | ![1764355634970](image/README/1764355634970.png)                                                                                                                                                                                                                                                                                                                                                                               |
 
 ### Power-Sources
 
-| Name                                        | Img |
-| ------------------------------------------- | --- |
-| Current-mirrors.asc                         |     |
-| Current-source-BJT.asc                      |     |
-| Raw-voltage-regulator-with-zener-diode..asc |     |
-| Voltage-regulator-npn.asc                   |     |
+| Name                                                                                                                  | Img                                                                                                                                                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Current-mirrors.asc                                                                                                   | ![1764455394804](image/README/1764455394804.png)<br /><br />Mirror current from Q2 to Ic of Q1                                                                                                                                                                                           |
+| Current-source-BJT.asc                                                                                                | ![1764455174977](image/README/1764455174977.png)<br /><br />Discussion can be checked here: [What is constant in a BJT contant current source? - Other Hardware / General Electronics - Arduino Forum](https://forum.arduino.cc/t/what-is-constant-in-a-bjt-contant-current-source/902500) |
+| [Raw-voltage-regulator-with-zener-diode](Misc/Basic-Electronic-Components\Raw-voltage-regulator-with-zener-diode.md).asc | ![1764453925162](image/README/1764453925162.png)                                                                                                                                                                                                                                         |
+| Voltage-regulator-npn.asc                                                                                             | ![1764439602290](image/README/1764439602290.png)<br />As you see in the figure above, Vref is linearly match with Vout.                                                                                                                                                                 |
 
 ### Protection Circuit
 
 | Name                       | Img/Des |
 | -------------------------- | ------- |
 | PTC_Fuse_Calculation.ipynb |         |
-|                            |         |
 
 #### Current limiting circuits
 
-| Name                                  | Img |
-| ------------------------------------- | --- |
-| BJT-for-simple-current-regulation.asc |     |
-| current-limiting-npn.asc              |     |
-| current-limiting-npn.db               |     |
-| current-limiting-npn.log              |     |
-| current-limiting-npn.op.raw           |     |
-| current-limiting-npn.raw              |     |
+| Name                                  | Img                                                                                                                                                                       |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BJT-for-simple-current-regulation.asc | ![1764459758090](image/README/1764459758090.png)<br /><br />Adjusting pot resulting in changes in base current. We dont have pot so we use two resistors to represent it.  |
+| current-limiting-npn.asc              | ![1764456573595](image/README/1764456573595.png)                                                                                                                            |
 
 #### Overvoltage protection circuits
 
-| Name                                    | Img |
-| --------------------------------------- | --- |
-| overvoltage-protection-zener-diodes.asc |     |
-| overvoltage-protection-zener-diodes.md  |     |
-| overvoltage-protection-zener-diodes.raw |     |
+| Name                                    | Img                                            |
+| --------------------------------------- | ---------------------------------------------- |
+| overvoltage-protection-zener-diodes.asc | ![1764463153288](image/README/1764463153288.png) |
 
 ### Signal-Processing-and-Modulation
 
