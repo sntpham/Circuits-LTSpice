@@ -90,7 +90,7 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 
 | Name                                    | Img                                            |
 | --------------------------------------- | ---------------------------------------------- |
-| RC-bandpass-filter-frequency-domain.asc |                                                |
+| RC-bandpass-filter-frequency-domain.asc | ![1764465693109](image/README/1764465693109.png) |
 | RC-highpass-frequency-domain.asc        |                                                |
 | RC-lowpass-frequency-domain.asc         |                                                |
 | RC-lowpass-cascaded.asc                 |                                                |
@@ -102,11 +102,11 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 
 #### RL
 
-| Name            | Img |
-| --------------- | --- |
-| RL-highpass.asc |     |
-| RL-lowpass.asc  |     |
-| RL.py           |     |
+| Name            | Img                                            |
+| --------------- | ---------------------------------------------- |
+| RL-highpass.asc |                                                |
+| RL-lowpass.asc  | ![1764465823388](image/README/1764465823388.png) |
+| RL.py           |                                                |
 
 #### RLC
 
@@ -197,7 +197,7 @@ Continue building more circuit based on [mick001 (Michy)](https://github.com/mic
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Current-mirrors.asc                                                                                                   | ![1764455394804](image/README/1764455394804.png)<br /><br />Mirror current from Q2 to Ic of Q1                                                                                                                                                                                           |
 | Current-source-BJT.asc                                                                                                | ![1764455174977](image/README/1764455174977.png)<br /><br />Discussion can be checked here: [What is constant in a BJT contant current source? - Other Hardware / General Electronics - Arduino Forum](https://forum.arduino.cc/t/what-is-constant-in-a-bjt-contant-current-source/902500) |
-| [Raw-voltage-regulator-with-zener-diode](Misc/Basic-Electronic-Components\Raw-voltage-regulator-with-zener-diode.md).asc | ![1764453925162](image/README/1764453925162.png)                                                                                                                                                                                                                                         |
+| [Raw-voltage-regulator-with-zener-diode](Misc/Basic-Electronic-Components/Raw-voltage-regulator-with-zener-diode.md).asc | ![1764453925162](image/README/1764453925162.png)                                                                                                                                                                                                                                         |
 | Voltage-regulator-npn.asc                                                                                             | ![1764439602290](image/README/1764439602290.png)<br />As you see in the figure above, Vref is linearly match with Vout.                                                                                                                                                                 |
 
 ### Protection Circuit
